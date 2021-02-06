@@ -91,13 +91,10 @@ No requirements.
 
 | Name | Description |
 |------|-------------|
-| ami | n/a |
-| bastion\_public\_ip | n/a |
-| controller\_private\_ips | n/a |
-| etcd\_private\_ips | n/a |
-| lb\_etcd\_dns | n/a |
-| lb\_kube\_apiserver\_dns | n/a |
-| worker\_private\_ips | n/a |
-| workstation\_ip | n/a |
+| ami | AMI description |
+| bastion\_public\_ip | Bastion Host Public IPv4 address to connect to |
+| lb\_etcd\_dns | etcd Load Balancer DNS |
+| lb\_kube\_apiserver\_dns | kube-apiserver Load Balancer DNS |
+| workstation\_ip | Your workstation's IP address |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
