@@ -31,10 +31,12 @@ This Terraform module creates AWS resources to learn for CKA and experiment with
 
 ## Examples
 
+Set variables in your local `terraform.tfvars` file to match your needs.
+
 Use Ubuntu 20.04 LTS instead of default 18.04 and pre-existing AWS Key Pair and SSH Key path:
 ```hcl
 owner                = "johndoe"
-ssh_private_key_path = "/Users/hajo/.ssh/id_rsa-customkey"
+ssh_private_key_path = "$HOME/.ssh/id_rsa-customkey"
 key_pair_name        = "my-key-pair-name"
 ubuntu_release       = "focal-20.04"
 ```
